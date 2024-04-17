@@ -1,0 +1,108 @@
+'use client';
+import React, { useRef, useState } from 'react';
+import ProjectCard from './ProjectCard';
+import ProjectTag from './ProjectTag';
+import { motion, useInView } from 'framer-motion';
+
+const projectsData = [
+  {
+    id: 1,
+    title: "Blender - Coffee",
+    description: "My first 3d project after I left university. Coffee Anyone?",
+    image: "images/coffee.png",
+    tag: ["All", "3D Art"],
+    gitUrl: "/",
+    previewUrl: "/"
+  },
+  {
+    id: 2,
+    title: "Blender - Whiskey",
+    description: "If not a coffee, why not try a whiskey?",
+    image: "images/whiskey.png",
+    tag: ["All", "Animation"],
+    gitUrl: "/",
+    previewUrl: "/"
+  },
+  {
+    id: 3,
+    title: "Blender - Ocean",
+    description: "Just an ocean with some stuff laying around.",
+    image: "images/ocean.png",
+    tag: ["All", "3D Art"],
+    gitUrl: "/",
+    previewUrl: "/"
+  },
+  {
+    id: 4,
+    title: "Blender - TV",
+    description: "A TV project for the PA Winter Show 2023",
+    image: "images/tv.png",
+    tag: ["All", "Animation"],
+    gitUrl: "/",
+    previewUrl: "/"
+  },
+  {
+    id: 5,
+    title: "Blender - Lunar New Year Statues",
+    description: "Statues displayed for Lunar New Year 2024",
+    image: "images/statue.png",
+    tag: ["All", "3D Art"],
+    gitUrl: "/",
+    previewUrl: "/"
+  },
+];
+
+
+const ProjectsSection = () => {
+  const [tag, setTag] = useState("All");
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
+  const handleTagChange = (newTag) => {
+    setTag(newTag);
+  };
+
+  const filteredProjects = projectsData.filter((project) => 
+    project.tag.includes(tag)
+  );
+
+  const cardVariants = {
+    initial: { y: 50, opacity:0},
+    animate: { y: 0, opacity: 1},
+  };
+
+  return (
+    <section id="projects">
+      <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12'>
+        My Projects
+      </h2>
+      <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
+        <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
+        <ProjectTag onClick={handleTagChange} name="3D Art" isSelected={tag === '3D Art'} />
+        <ProjectTag onClick={handleTagChange} name="Animation" isSelected={tag === 'Animation'} />
+      </div>
+      <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
+        {filteredProjects.map((project, index) => (
+          <motion.li 
+            key={index}
+            variants={cardVariants}
+            initial="initial"
+            animate={isInView ? "animate" : "initial"}
+          >
+          <ProjectCard 
+           key={project.id} 
+           title={project.title} 
+           description={project.description} 
+           imgUrl={project.image}
+           tag={project.tag}
+           gitUrl={project.gitUrl}
+           previewUrl={project.previewUrl}
+          />
+          </motion.li>
+        ))}
+      </ul>
+    </section>
+  );
+};
+
+export default ProjectsSection;
