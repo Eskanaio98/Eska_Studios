@@ -28,20 +28,20 @@ const TAB_DATA = [
         id: 'education',
         content: (
             <ul>
-                <li>Shooters Hill Sixth Form College</li>
-                <li>University of Greenwich</li>
+                <li>Shooters Hill Sixth Form College (2017-2020)</li>
+                <li>University of Greenwich (2020-2023)</li>
             </ul>
         )
     },
     {
-        title: 'Certificates',
-        id: 'certificates',
+        title: 'Grades',
+        id: 'grades',
         content: (
             <ul>
-                <li>ICT BTEC Lvl3 Extended Diploma - D*D*D*</li>
+                <li>ICT BTEC Lvl3 Extended Diploma - D*D*D* (BTEC Coursework)</li>
                 <li>GCSE Maths - C</li>
                 <li>GCSE English - C</li>
-                <li>Games Design and Development (Anim & Mod) - 2:2</li>
+                <li>Games Design and Development (Anim & Mod) (BSc Honours Degree) - 2:2</li>
             </ul>
         )
     }
@@ -85,10 +85,10 @@ const AboutSection = () => {
                         </TabButton>
 
                         <TabButton 
-                          selectTab={() => handleTabChange('certificates')} 
-                          active={tab === 'certificates'}> 
+                          selectTab={() => handleTabChange('grades')} 
+                          active={tab === 'grades'}> 
                           {' '}
-                          Certificates {' '}
+                          Grades {' '}
                         </TabButton>
                     </div>
                     <div className='mt-8'>{TAB_DATA.find((t) => t.id === tab).content}</div>

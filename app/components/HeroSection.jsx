@@ -47,7 +47,7 @@ const HeroSection = () => {
           </button>
           <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-red-600 via-purple-600 to-blue-500 hover:bg-slate-800 text-white mt-3'>
             <span className='block bg-[#000066] hover:bg-slate-800 rounded-full px-5 py-2'>
-              <a href='/images/Nantharatnam Miller- CV.PDF'>
+              <a href='https://drive.google.com/file/d/13BooLYzyIYZfTZ_zHrXHKHoNI8vcjbdf/view?usp=sharing'>
                   Download CV
               </a>
             </span>
@@ -65,8 +65,8 @@ const HeroSection = () => {
              src="/images/profile.png"
              alt="profile picture"
              className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-             width={350}
-             height={350}
+             width={250}
+             height={250}
             />
           </div>
         </motion.div>
