@@ -19,7 +19,7 @@ const projectsData = [
     title: "Blender - Whiskey",
     description: "If not a coffee, why not try a whiskey?",
     image: "images/whiskey.png",
-    tag: ["All", "Animation"],
+    tag: ["All", "3D Art"],
     gitUrl: "https://drive.google.com/file/d/1vDL8vpvANC8uG-bj4Qw9abB49jS0hXKc/view?usp=sharing",
     previewUrl: "https://drive.google.com/file/d/12qJZ8P9sEbPiwjLqVln56uH37VWAD-ko/view?usp=sharing"
   },
@@ -46,7 +46,7 @@ const projectsData = [
     title: "Blender - Lunar New Year Statues",
     description: "Statues displayed for Lunar New Year 2024",
     image: "images/statue.png",
-    tag: ["All", "3D Art"],
+    tag: ["All", "Animation"],
     gitUrl: "",
     previewUrl: "https://drive.google.com/file/d/10lh4BUF7dJcMyQGj3yx7A2t_NU-tMrol/view?usp=sharing"
   },
