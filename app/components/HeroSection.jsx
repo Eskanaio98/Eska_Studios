@@ -55,13 +55,13 @@ const HeroSection = () => {
          transition={{ duration: 0.5 }}
          className='col-span-4 place-self-center mt-4 lg:mt-0'
         >
-          <div className='rounded-full bg-[#E9FBFA] w-[350px] h-[350px] lg:w-[350px] lg:h-[350px] relative'>
+          <div className='w-[350px] h-[350px] lg:w-[350px] lg:h-[350px] relative'>
            <Image
-             src="/images/secondman-image.png"
+             src="/images/profile.png"
              alt="profile picture"
              className='absolute transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-             width={250}
-             height={250}
+             width={350}
+             height={350}
             />
           </div>
         </motion.div>

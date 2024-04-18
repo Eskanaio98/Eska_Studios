@@ -11,8 +11,8 @@ const projectsData = [
     description: "My first 3d project after I left university. Coffee Anyone?",
     image: "images/coffee.png",
     tag: ["All", "3D Art"],
-    gitUrl: "/",
-    previewUrl: "/"
+    gitUrl: "https://drive.google.com/file/d/1C7qWXCsG65Xe8hbtf7fB1Pw4kE7ITAwb/view?usp=sharing",
+    previewUrl: "https://drive.google.com/file/d/1GJPZDSjc4BywbPlz1RH3crvNgkbeQWZw/view?usp=sharing"
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "If not a coffee, why not try a whiskey?",
     image: "images/whiskey.png",
     tag: ["All", "Animation"],
-    gitUrl: "/",
-    previewUrl: "/"
+    gitUrl: "https://drive.google.com/file/d/1vDL8vpvANC8uG-bj4Qw9abB49jS0hXKc/view?usp=sharing",
+    previewUrl: "https://drive.google.com/file/d/12qJZ8P9sEbPiwjLqVln56uH37VWAD-ko/view?usp=sharing"
   },
   {
     id: 3,
@@ -29,8 +29,8 @@ const projectsData = [
     description: "Just an ocean with some stuff laying around.",
     image: "images/ocean.png",
     tag: ["All", "3D Art"],
-    gitUrl: "/",
-    previewUrl: "/"
+    gitUrl: "https://drive.google.com/file/d/1hkxUTPqddGv6CU8VR0Ljmi6W-GZzflCu/view?usp=sharing",
+    previewUrl: "https://drive.google.com/file/d/17DdmOgcCVQHRhzgJ0uQCA70BjzqDTRCc/view?usp=sharing"
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const projectsData = [
     image: "images/tv.png",
     tag: ["All", "Animation"],
     gitUrl: "/",
-    previewUrl: "/"
+    previewUrl: "https://drive.google.com/file/d/10lh4BUF7dJcMyQGj3yx7A2t_NU-tMrol/view?usp=sharing"
   },
   {
     id: 5,
@@ -47,8 +47,8 @@ const projectsData = [
     description: "Statues displayed for Lunar New Year 2024",
     image: "images/statue.png",
     tag: ["All", "3D Art"],
-    gitUrl: "/",
-    previewUrl: "/"
+    gitUrl: "",
+    previewUrl: "https://drive.google.com/file/d/10lh4BUF7dJcMyQGj3yx7A2t_NU-tMrol/view?usp=sharing"
   },
 ];
 
