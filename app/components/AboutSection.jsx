@@ -38,10 +38,10 @@ const TAB_DATA = [
         id: 'grades',
         content: (
             <ul>
+                <li>Games Design and Development (Anim & Mod) (BSc Honours Degree) - 2:2</li>
                 <li>ICT BTEC Lvl3 Extended Diploma - D*D*D* (BTEC Coursework)</li>
                 <li>GCSE Maths - C</li>
                 <li>GCSE English - C</li>
-                <li>Games Design and Development (Anim & Mod) (BSc Honours Degree) - 2:2</li>
             </ul>
         )
     }
