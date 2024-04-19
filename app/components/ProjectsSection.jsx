@@ -39,7 +39,7 @@ const projectsData = [
     image: "images/tv.png",
     tag: ["All", "Animation"],
     gitUrl: "/",
-    previewUrl: "https://drive.google.com/file/d/10lh4BUF7dJcMyQGj3yx7A2t_NU-tMrol/view?usp=sharing"
+    previewUrl: "https://drive.google.com/file/d/1QY1Z5bziOlo7ZgZ0EZsr0tdCUvIFNJjL/view?usp=sharing"
   },
   {
     id: 5,
@@ -49,6 +49,15 @@ const projectsData = [
     tag: ["All", "Animation"],
     gitUrl: "",
     previewUrl: "https://drive.google.com/file/d/10lh4BUF7dJcMyQGj3yx7A2t_NU-tMrol/view?usp=sharing"
+  },
+  {
+    id: 6,
+    title: "Unity - Labryinth RPG Demo team project (Miller's Work)",
+    description: "A demo progress of what I have done for the game as a part of the team project",
+    image: "images/swordslash.png",
+    tag: ["All", "Games Design"],
+    gitUrl:"",
+    previewUrl:"https://drive.google.com/file/d/1birPzFq1o1Hrp9jj4WWiP34RLZcKD_FJ/view?usp=sharing"
   },
 ];
 
@@ -80,6 +89,7 @@ const ProjectsSection = () => {
         <ProjectTag onClick={handleTagChange} name="All" isSelected={tag === 'All'} />
         <ProjectTag onClick={handleTagChange} name="3D Art" isSelected={tag === '3D Art'} />
         <ProjectTag onClick={handleTagChange} name="Animation" isSelected={tag === 'Animation'} />
+        <ProjectTag onClick={handleTagChange} name="Games Design" isSelected={tag === 'Games Design'} />
       </div>
       <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12'>
         {filteredProjects.map((project, index) => (
