@@ -35,7 +35,7 @@ const projectsData = [
   {
     id: 4,
     title: "Blender - TV",
-    description: "A TV project for the PA Winter Show 2023",
+    description: "A TV project for the PA Winter Show 2023.",
     image: "images/tv.png",
     tag: ["All", "Animation"],
     gitUrl: "/",
@@ -44,7 +44,7 @@ const projectsData = [
   {
     id: 5,
     title: "Blender - Lunar New Year Statues",
-    description: "Statues displayed for Lunar New Year 2024",
+    description: "Statues displayed for Lunar New Year 2024.",
     image: "images/statue.png",
     tag: ["All", "Animation"],
     gitUrl: "",
@@ -53,12 +53,21 @@ const projectsData = [
   {
     id: 6,
     title: "Unity - Labryinth RPG Demo team project (Miller's Work)",
-    description: "A demo progress of what I have done for the game as a part of the team project",
+    description: "A demo progress of what I have done for the game as a part of the team project.",
     image: "images/swordslash.png",
     tag: ["All", "Games Design"],
     gitUrl:"",
     previewUrl:"https://drive.google.com/file/d/1birPzFq1o1Hrp9jj4WWiP34RLZcKD_FJ/view?usp=sharing"
   },
+  {
+    id: 7,
+    title: "Birthday Project: Amy!",
+    description: "A birthday animation made for a friend of mine back from late april 2024.",
+    image: "images/birthday.png",
+    tag: ["All", "Animation", "3D Art"],
+    gitUrl:"",
+    previewUrl:"https://drive.google.com/file/d/1U0w8oLUzU-S8bl_UOfRsaiBvxpbne3ID/view?usp=sharing"
+  }
 ];
 
 
