@@ -64,9 +64,36 @@ const projectsData = [
     title: "Birthday Project: Amy!",
     description: "A birthday animation made for a friend of mine back from late april 2024.",
     image: "images/birthday.png",
-    tag: ["All", "Animation", "3D Art"],
+    tag: ["All", "Animation"],
     gitUrl:"",
     previewUrl:"https://drive.google.com/file/d/1U0w8oLUzU-S8bl_UOfRsaiBvxpbne3ID/view?usp=sharing"
+  },
+  {
+    id: 8,
+    title: "Coin Flip",
+    description: "A birthday animation made for a friend of mine back from late april 2024.",
+    image: "images/birthday.png",
+    tag: ["All", "Animation", "3D Art"],
+    gitUrl:"",
+    previewUrl:"https://drive.google.com/file/d/19mwOFq4bx1PNDLz0bo3RrafHIfpF0Avc/view?usp=sharing"
+  },
+  {
+    id: 9,
+    title: "London Thunder Basketball Project",
+    description: "This is my first freelance project for my first client.",
+    image: "images/basketball.png",
+    tag: ["All", "Animation", "3D Art"],
+    gitUrl:"",
+    previewUrl:"https://drive.google.com/file/d/1JSdLE8PU2lILmL8EbX2_QZzkq4AG31PH/view?usp=sharing"
+  },
+  {
+    id: 10,
+    title: "Under the ocean",
+    description: "A picture of the ocean in a underwater view",
+    image: "images/untitled.png",
+    tag: ["All", "3D Art"],
+    gitUrl:"",
+    previewUrl:"https://drive.google.com/file/d/1kaHRKdtcKcc5STYoICL5JEo6RAqnwTuk/view?usp=sharing"
   }
 ];
 
