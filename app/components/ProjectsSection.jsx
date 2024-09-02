@@ -72,7 +72,7 @@ const projectsData = [
     id: 8,
     title: "Coin Flip",
     description: "A birthday animation made for a friend of mine back from late april 2024.",
-    image: "images/birthday.png",
+    image: "images/coinflip.png",
     tag: ["All", "Animation", "3D Art"],
     gitUrl:"",
     previewUrl:"https://drive.google.com/file/d/19mwOFq4bx1PNDLz0bo3RrafHIfpF0Avc/view?usp=sharing"
