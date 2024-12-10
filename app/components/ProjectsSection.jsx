@@ -94,7 +94,16 @@ const projectsData = [
     tag: ["All", "3D Art"],
     gitUrl:"",
     previewUrl:"https://drive.google.com/file/d/1kaHRKdtcKcc5STYoICL5JEo6RAqnwTuk/view?usp=sharing"
-  }
+  },
+  {
+    id: 11,
+    title: "Death Note July 2024 Trailer",
+    description: "An inspiration of Death Note I worked on from July 2024",
+    image: "images/deathnote.png",
+    tag: ["All", "3D Art", "Animation"],
+    gitUrl:"",
+    previewUrl:"https://drive.google.com/file/d/1e2fdqJ3dG3bq3QhQfdem5zB5oXCu9_ie/view?usp=sharing"
+  },
 ];
 
 
